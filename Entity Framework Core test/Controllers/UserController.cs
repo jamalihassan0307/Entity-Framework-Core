@@ -10,7 +10,7 @@ namespace Entity_Framework_Core_test.Controllers
 {
    
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     public class UserController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
